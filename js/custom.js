@@ -172,7 +172,7 @@ function displayMajorSelectedDegree(degree) {
   }
   if(degree == 'Bachelor of Secondary Education') {
     $('.bachelor_of_secondary_education').css('display', 'block');
-    $('.bachelor_of_secondary_educationr').prop('disabled', false);
+    $('.bachelor_of_secondary_education').prop('disabled', false);
   }
   if(degree == 'Bachelor of Science') {
     $('.bachelor_of_science').css('display', 'block');

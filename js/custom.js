@@ -183,7 +183,7 @@ function displayMajorSelectedDegree(degree) {
 
 $('.degree_option').on('change', function() {
   var selected_degree = $(this).val();
-  displayCityMajorSelectedDegree(selected_degree);
+  displayMajorSelectedDegree(selected_degree);
 });
 
 $('#apply_now_form').validate({

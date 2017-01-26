@@ -5,6 +5,13 @@ p.page_big_head {
 
 	} /**job title**/
 
+ul.position_list {
+	margin-top: 2em;
+	margin-bottom: -2em;
+	margin-left: -2em;
+	margin-right: 1em;
+	}
+
 .position_list li {
 	text-align: center;
 	}

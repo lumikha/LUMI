@@ -1,5 +1,11 @@
 @media only all and (min-width: 768px) and (max-width: 1024px) {
 
+ul.position_list {
+	margin-top: 4em;
+	margin-bottom: 0em;
+	margin-left: -2em;
+	}
+
 .position_list li {
 	text-align: center;
 }

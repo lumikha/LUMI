@@ -18,11 +18,12 @@ ul.position_list li a {
 ul.position_list {
 	margin-top: 2em;
 	margin-bottom: -2em;
+	margin-left: -2em;
 	}
 
 .map img {
 	width: 180px;
-	height: 250px;
+	height: 150px;
 	}
 
 .copyright {

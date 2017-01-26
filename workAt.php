@@ -564,9 +564,7 @@
 								<select name="major" class="form-control major bachelor_of_science">
 									<?php include 'etc/bachelor_of_science_list.php'; ?>
 								</select>
-								<label for="major"></label>
 								<input type="text" name="major" class="form-control major master" placeholder="Please Specify">
-								<label for="major"></label>
 								<input type="text" name="major" class="form-control major doctor" placeholder="Please Specify" >
 							</div>
 						</div>

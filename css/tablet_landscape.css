@@ -1,0 +1,8 @@
+@media only all and (min-width: 1024px) and (max-width: 1200px) {
+
+	.map img {
+	width: 220px;
+	height: 250px;
+	}
+
+}

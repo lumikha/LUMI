@@ -1,0 +1,17 @@
+@media only all and (min-width: 480px) and (max-width: 768px) {
+
+p.page_big_head {
+	font-size: 34px;
+
+	}/**job title**/
+
+.position_list li {
+	text-align: center;
+	}
+
+ul.position_list li a {
+	font-size: 16px;
+
+	}
+
+}

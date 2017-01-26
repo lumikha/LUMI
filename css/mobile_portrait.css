@@ -1,0 +1,21 @@
+@media only all and (min-width: 320px) and (max-width: 480px) {
+
+p.page_big_head {
+	font-size: 28px;
+
+	} /**job title**/
+
+.position_list li {
+	text-align: center;
+	}
+ul.position_list li a {
+	font-size: 14px;
+	
+	}
+
+.copyright {
+	font-size: 14px;
+	} /**footer**/
+
+
+}

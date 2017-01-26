@@ -93,5 +93,5 @@
 <option value="Sports Science">Sports Science</option>
 <option value="Statistics/Applied Statistics">Statistics/Applied Statistics</option>
 <option value="Theology">Theology</option>
-<option value="Tourism Management"></option>
+<option value="Tourism Management">Tourism Management</option>
 <option value="Veterinary Medicine">Veterinary Medicine</option>

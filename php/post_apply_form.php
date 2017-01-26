@@ -74,13 +74,36 @@ $headers = 'From: Atelier Lumikha <workat@lumikha.co>' . "\r\n" . 'CC: Diane Yol
 
 if(mail($to, $subject, $message, $headers)) {
     /*
+    $to2 = $email;
+    $subject2 = "You Just Applied to Lumikha!";
+    $message2 = "<h1>Okay, We Got You</h1>
+            <div>
+                <p>Thank you very much for your application, we really appreciate your interest.</p>
+
+                <p>Now that we have your information, we'll review it shortly. If you look like a good fit for Lumikha, someone will give you a call in the next 2-3 working days.</p>
+
+                <p>We'll try to call your mobile (if you gave us a mobile number), so it's a good idea to answer your phone -- especially if you are looking for gig. ;-)</p>
+
+                <p>We're always on the lookout for great people like yourself. If you know anyone else who might be a good fit for us.</p>
+
+                <br>
+                <p>Best Wishes,</p>
+                <p>Your Friendly Lumikhans</p>
+            </div>";
+        
+    $headers2 = 'From: Atelier Lumikha <workat@lumikha.co>' . "\r\n" . 'Content-type: text/html; charset=iso-8859-1' . "\r\n" . 'X-Mailer: PHP/' . phpversion()  . "\r\n";
+    if(mail($to2, $subject2, $message2, $headers2)) {
+        echo "sent";
+    } else {
+        echo "fail";
+    } 
+    */
+
     if(sendHelloEmail($email, $applicant_name) == 202) {
         echo "sent";
     } else {
         echo "fail";
     }
-    */
-    echo "sent";
 } else {
 	echo "fail";
 }

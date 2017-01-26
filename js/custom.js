@@ -2,9 +2,12 @@ $(document).ready(function() {
 	var current_page = document.location.pathname.match(/[^\/]+$/)[0];
 	var specified_pos = window.location.href.split("#"); 
 
+  /*
 	if(current_page == 'about') {
 		$('#aboutTab').addClass('active');
 	}
+  */
+
 	if(current_page == 'workAt') {
 		$('#workAt_index_img').css('display', 'block');
 		$('#workAt_index').css('display', 'block');
@@ -19,13 +22,18 @@ $(document).ready(function() {
         }
 			}
 		}
-	}
+	} else {
+    window.location.href = "https://lumikha.co/404";
+  }
+
+  /*
 	if(current_page == 'engage') {
 		$('#engageTab').addClass('active');
 	}
 	if(current_page == 'contact') {
 		$('#contactTab').addClass('active');
 	}
+  */
 
 	displayCitySelectedRegion($('.region_option').val());
 	//capitalFirstLetter();

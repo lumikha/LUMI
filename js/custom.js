@@ -8,7 +8,7 @@ $(document).ready(function() {
 	}
   */
 
-	if(current_page == 'workAt') {
+	if(current_page == 'workAt' || current_page == 'workat') {
 		$('#workAt_index_img').css('display', 'block');
 		$('#workAt_index').css('display', 'block');
 		$('#workTab').addClass('active');

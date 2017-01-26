@@ -62,7 +62,7 @@ $('.position_list li a').on('click', function() {
 	showPosition(posSelected[1], 1);
 	$('.position_list li a').removeClass('active');
 	$(this).addClass('active');
-	$('body, html').animate({ scrollTop: 0 }, 400);
+	$('body, html').animate({ scrollTop: 0 }, 0);
 	//return false;
 }); 
 
@@ -83,6 +83,7 @@ function showPosition(position, clicked) {
 			$('#'+position).fadeIn( "slow" );
 			$('#'+position+'_img').fadeIn( "slow" );
 		}
+    $('body, html').animate({ scrollTop: 0 }, 400);
 	}
 }
 

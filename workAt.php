@@ -542,6 +542,9 @@
 									<option value="Bachelor of Elementary Education">Bachelor of Elementary Education</option>
 									<option value="Bachelor of Secondary Education">Bachelor of Secondary Education</option>
 									<option value="Bachelor of Science">Bachelor of Science</option>
+									<option value="Master">Master</option>
+									<option value="Doctor">Doctor</option>
+
 								</select>
 							</div>
 							<div class="col-md-6">
@@ -561,6 +564,10 @@
 								<select name="major" class="form-control major bachelor_of_science">
 									<?php include 'etc/bachelor_of_science_list.php'; ?>
 								</select>
+								<label for="major"></label>
+								<input type="text" name="major" class="form-control major master" placeholder="Please Specify">
+								<label for="major"></label>
+								<input type="text" name="major" class="form-control major doctor" placeholder="Please Specify" >
 							</div>
 						</div>
 					</div>

@@ -186,7 +186,14 @@ function displayMajorSelectedDegree(degree) {
     $('.bachelor_of_science').css('display', 'block');
     $('.bachelor_of_science').prop('disabled', false);
   }
-
+  if(degree == 'Master') {
+    $('.master').css('display', 'block');
+    $('.master').prop('disabled', false);
+  }
+  if(degree == 'Doctor') {
+    $('.doctor').css('display', 'block');
+    $('.doctor').prop('disabled', false);
+  }
 }
 
 $('.degree_option').on('change', function() {

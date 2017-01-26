@@ -1,5 +1,5 @@
-ErrorDocument 500 404
-ErrorDocument 404 404
+ErrorDocument 500 https://lumikha.co/404
+ErrorDocument 404 https://lumikha.co/404
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f

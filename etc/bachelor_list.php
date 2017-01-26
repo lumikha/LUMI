@@ -1,0 +1,17 @@
+<option value="Business Data Outsourcing">Business Data Outsourcing</option>
+<option value="Business Process Outsourcing">Business Process Outsourcing</option>
+<option value="Construction Management">Construction Management</option>
+<option value="Environmental Planning">Environmental Planning</option>
+<option value="Fine Arts">Fine Arts</option>
+<option value="Fine Arts in Industrial Design">Fine Arts in Industrial Design</option>
+<option value="Fine Arts in Painting ">Fine Arts in Painting </option>
+<option value="Fine Arts in Sculpture">Fine Arts in Sculpture</option>
+<option value="Fine Arts in Visual Communication">Fine Arts in Visual Communication</option>
+<option value="Landscape Architecture">Landscape Architecture</option>
+<option value="Library Science & Information System">Library Science & Information System</option>
+<option value="Mass Communication">Mass Communication</option>
+<option value="Performing Arts">Performing Arts</option>
+<option value="Physical Education">Physical Education</option>
+<option value="Public Administration">Public Administration</option>
+<option value="Tourism">Tourism</option>
+<option value="Urban Planning">Urban Planning</option>

@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="end">
 	<head>
+	
+	<!--page title goes here-->
 	 <title>Work At Atelier Lumikha</title>
+
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale-1">
+		
+	<!--meta description goes here: just change the content, make sure to enclose the text with " "-->
 		<meta name="description" content="Atelier Lumikha is a great place to work: evolved HR policies, mutual respect, time for things that matter to you.">
-		<title>LUMI</title>
+		
+
+	
+		
+		
 		<link rel="shortcut icon" href="img/lumi_site_nav_logo.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/fonts/Source_Sans_Pro/style.css">

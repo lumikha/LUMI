@@ -29,6 +29,7 @@ $(document).ready(function() {
 
 	displayCitySelectedRegion($('.region_option').val());
 	//capitalFirstLetter();
+  displayMajorSelectedDegree($('.degree_option').val());
 });
 
 /*
@@ -152,6 +153,37 @@ function displayCitySelectedRegion(region) {
 $('.region_option').on('change', function() {
 	var selected_region = $(this).val();
 	displayCitySelectedRegion(selected_region);
+});
+
+function displayMajorSelectedDegree(degree) {
+  $('.major').css('display', 'none');
+  $('.major').prop('disabled', 'disabled');
+  if(degree == 'Bachelor') {
+    $('.bachelor').css('display', 'block');
+    $('.bachelor').prop('disabled', false);
+  }
+  if(degree == 'Bachelor of Arts') {
+    $('.bachelor_of_arts').css('display', 'block');
+    $('.bachelor_of_arts').prop('disabled', false);
+  }
+  if(degree == 'Bachelor of Elementary Education') {
+    $('.bachelor_of_elementary_education').css('display', 'block');
+    $('.bachelor_of_elementary_education').prop('disabled', false);
+  }
+  if(degree == 'Bachelor of Secondary Education') {
+    $('.bachelor_of_secondary_education').css('display', 'block');
+    $('.bachelor_of_secondary_educationr').prop('disabled', false);
+  }
+  if(degree == 'Bachelor of Science') {
+    $('.bachelor_of_science').css('display', 'block');
+    $('.bachelor_of_science').prop('disabled', false);
+  }
+
+}
+
+$('.degree_option').on('change', function() {
+  var selected_degree = $(this).val();
+  displayCityMajorSelectedDegree(selected_degree);
 });
 
 $('#apply_now_form').validate({

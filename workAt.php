@@ -536,13 +536,31 @@
 						<div class="form-group">
 							<div class="col-md-6">
 								<label for="degree">DEGREE</label>
-								<select name="degree" class="form-control">
-									<option>Bachelor of Arts</option>
+								<select name="degree" class="form-control degree_option">
+									<option value="Bachelor">Bachelor</option>
+									<option value="Bachelor of Arts">Bachelor of Arts</option>
+									<option value="Bachelor of Elementary Education">Bachelor of Elementary Education</option>
+									<option value="Bachelor of Secondary Education">Bachelor of Secondary Education</option>
+									<option value="Bachelor of Science">Bachelor of Science</option>
 								</select>
 							</div>
 							<div class="col-md-6">
 								<label for="major">MAJOR</label>
-								<input type="text" name="major" class="form-control" placeholder="Computer Engineering">
+								<select name="major" class="form-control major bachelor">
+									<?php include 'etc/bachelor_list.php'; ?>
+								</select>
+								<select name="major" class="form-control major bachelor_of_arts">
+									<?php include 'etc/bachelor_of_arts_list.php'; ?>
+								</select>
+								<select name="major" class="form-control major bachelor_of_elementary_education">
+									<?php include 'etc/bachelor_of_elementary_education.php'; ?>
+								</select>
+								<select name="major" class="form-control major bachelor_of_secondary_education">
+									<?php include 'etc/bachelor_of_secondary_education.php'; ?>
+								</select>
+								<select name="major" class="form-control major bachelor_of_science">
+									<?php include 'etc/bachelor_of_science_list.php'; ?>
+								</select>
 							</div>
 						</div>
 					</div>

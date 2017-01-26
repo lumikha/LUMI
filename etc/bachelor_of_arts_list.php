@@ -1,0 +1,16 @@
+<option value="Anthropology">Anthropology</option>
+<option value="Broadcasting">Broadcasting</option>
+<option value="Communication">Communication</option>
+<option value="Economics">Economics</option>
+<option value="English">English</option>
+<option value="Filipino">Filipino</option>
+<option value="History">History</option>
+<option value="Islamic Studies">Islamic Studies</option>
+<option value="Journalism">Journalism</option>
+<option value="Linguistics">Linguistics</option>
+<option value="Literature">Literature</option>
+<option value="Mass Communication">Mass Communication</option>
+<option value="Philosophy">Philosophy</option>
+<option value="Political Science">Political Science</option>
+<option value="Psychology">Psychology</option>
+<option value="Sociology">Sociology</option>

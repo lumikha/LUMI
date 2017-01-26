@@ -333,7 +333,7 @@
 				<div class="apply_result_form">
 					<div class="alert alert-success email_sent">
 						<center>
-  							<strong>Thank You!</strong> An email was sent to you and to your referred person.
+  							<strong>Thank You!</strong> An invitation email was sent to your referred person.
   						</center>
 					</div>
 					<div class="alert alert-danger email_not_sent">
